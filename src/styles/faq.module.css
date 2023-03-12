@@ -1,0 +1,125 @@
+.faq_hero_image{
+    width: 2100px;
+    height: 758px;
+}
+.faq_title_row{
+    padding-top: 80px;
+    padding-left: 160px;
+    height: 150px;
+}
+.faq_title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 82px;
+    color: #322035;
+}
+.faq_qa_row{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 160px;
+}   
+.faq_qa_group{
+    padding-top:20px;
+}
+.faq_small_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #322035;
+    padding-top: 20px;
+}
+
+.bottom_svg_1{
+    position: absolute;
+    left: -700px;
+    bottom: 0;
+    top: 1420px;
+    -ms-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+.bottom_svg_2{
+    position: absolute;
+    left: -350px;
+    bottom: 0;
+    top: 1450px;
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+.pixel {
+    padding-left: 0 !important;
+}
+
+.faq_image_box {
+    /* width: 1440px; */
+    width: 100vw;
+    height: 493px;
+    left: 0px;
+    top: 114px;
+}
+
+.custom_title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #322035;
+}
+
+.faq_wrapper {
+    padding: 50px 18px;
+    /* overflow: hidden; */
+}
+
+@media only screen and (max-width: 768px){
+    .faq_hero_image{
+        width: 1000px;
+        height: 361px;
+    }
+    .faq_title_row{
+        height: 100px;
+        padding-top: 40px;
+        padding-left: 60px;
+    }
+    .faq_title{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .faq_qa_row{
+        padding-bottom: 50px;
+        padding-left: 60px;
+    }   
+    .faq_qa_group{
+        padding-top:15px;
+    }
+    .faq_small_text{
+        font-weight: 600;
+        font-size: 15px;
+        padding-top: 10px;
+        line-height: 30px;
+    }
+    
+    .faq_image_box {
+        max-height: 400px;
+    }
+
+    .custom_title {
+        font-size: 35px;
+        line-height: 52px;
+    }
+
+    .other_device {
+        position: relative;
+        right: unset;
+    }
+
+    .smaller_text_mobile {
+        font-size: 45px;
+        line-height: 72px;
+    }
+}

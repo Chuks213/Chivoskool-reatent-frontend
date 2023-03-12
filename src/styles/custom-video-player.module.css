@@ -1,0 +1,37 @@
+.parent {
+    position: relative; 
+    cursor: pointer;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 110px;
+}
+
+.play_icon {
+    position: absolute; 
+    left: 30%; 
+    top: 3%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.video_big {
+    max-width: 835px;
+    max-height: 360px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .play_icon {
+        left: 37%; 
+        top: 12%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .video {
+        max-width: 100%;
+    }
+}

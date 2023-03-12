@@ -1,0 +1,144 @@
+.get_started_image {
+    width: 499px;
+    height: 511px;
+}
+
+.items_right {
+    position: absolute;
+    right: 0;
+}
+
+.big_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 52px;
+    color: #322035;
+}
+
+.offers_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 37px;
+    color: #322035;
+}
+
+.personal_info_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 57px;
+    color: #322035;
+}
+
+.custom_input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 38%;
+    border-color: #322035;
+    padding-top: 15px;
+    border-bottom: 0.8px solid;
+}
+
+.custom_input:focus {
+    outline: none;
+}
+
+.custom_input:invalid:focus {
+    color: tomato;
+}
+
+.ml_22_perc {
+    margin-left: 22%;
+}
+
+@media only screen and (max-width: 768px) {
+    .items_right {
+        position: relative;
+        right: unset;
+    }
+
+    .get_started_image {
+        width: 353px;
+        height: 298px;
+    }
+}
+
+.action_pane {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.existing_acct {
+    align-self: center;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24.61px;
+    color: #000000;
+    padding-right: 13px;
+}
+
+.existing_acct:hover {
+    color: #6c757d;
+}
+
+.existing_acct:focus {
+    color: #5c636a;
+}
+
+.existing_acct:active {
+    color: #565e64;
+}
+
+.w_38_perc {
+    width: 38%;
+}
+
+.w_72_perc {
+    width: 72% !important;
+}
+
+.w_28_perc {
+    max-width: 28%;
+}
+
+.input_ph_number {
+    border-left: 1px solid #322035;
+    padding-left: 7px;
+}
+
+.input_group_bd {
+    border: 1px solid #322035;
+}
+
+@media only screen and (max-width: 768px) {
+    .existing_acct {
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .custom_input {
+        width: 100%;
+        padding-top: 35px;
+    }
+
+    .ml_22_perc {
+        margin-left: unset;
+    }
+
+    .form_row_sm_col {
+        flex-direction: column !important;
+    }
+
+    .w_38_perc {
+        width: 100%;
+    }
+}

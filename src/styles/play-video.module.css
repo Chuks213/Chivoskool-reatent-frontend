@@ -1,0 +1,166 @@
+.back {
+    padding-right: 13px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #322035;
+}
+
+.back:hover {
+    color: #6c757d;
+}
+
+.back:focus {
+    color: #5c636a;
+}
+
+.back:active {
+    color: #565e64;
+}
+
+.video_title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #322035;
+}
+
+.video_meta {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.divider {
+    border: 1px solid #E8E4F6;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.comments_link {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #322035;
+}
+
+.comments_link:hover {
+    color: #828282;
+}
+
+.comment_box {
+    background: #DCD3FB;
+    /* background: #F5F5F5; */
+    height: auto;
+    padding: 20px;
+    width: 600px;
+    max-height: 800px;
+    overflow-y: auto;
+    border-radius: 15px;
+}
+
+.comment_box ul li {
+    background: #F5F5F5;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.spacer {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.load_more_btn {
+    color: #000000;
+    text-decoration: none;
+}
+
+.load_more_btn:hover {
+    color: #504D4D;
+    text-decoration: underline;
+}
+
+.comment_name {
+    color: #322035;
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+.comment_date {
+    color: #999999;
+    font-size: 13px;
+    font-family: Montserrat;
+}
+
+.comment_message {
+    color: #322035;
+    font-size: 15px;
+    font-family: Poppins;
+    line-height: 1.3;
+}
+
+.comment_reply_box {
+    margin-left: 10px;
+    margin-top: 5px;
+    background: #FBFD60;
+    width: 95%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+}
+
+.comment_add_reply_box {
+    margin-top: 5px;
+    background: #FAFAFA;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+}
+
+.reply_btn {
+    color: #564B7C;
+    margin-top: 5px;
+    display: block;
+}
+
+.reply_btn:hover {
+    color: #999999;
+}
+
+.add_comment_box {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.add_comment_inner_box {
+    width: 600px;
+    background: #FAFAFA;
+    font-family: Poppins;
+    padding: 30px 20px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .back {
+        padding-right: 5px;
+    }
+
+    .comment_box {
+        width: 100%;
+    }
+
+    .add_comment_inner_box {
+        width: 100%;
+    }
+}

@@ -1,0 +1,159 @@
+.big_text {
+left: 287px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+color: #322035;
+}
+
+.weekly_text {
+left: 287px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #322035;
+}
+
+.content {
+    margin-left: 11px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #322035;
+}
+
+.reply_content {
+    padding-left: 3px;
+    background-color: #E8E4F6;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.content_time {
+    color: #BDBDBD;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.CornDownrRight {
+    padding-left: 12px;
+    padding-top: 5px;
+}
+
+.first_video_container {
+    padding-top: 22px;
+}
+
+.first_video_content {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #322035;
+    margin-left: 14px;
+
+}
+
+.first_video_time {
+    margin-left: -161px;
+    padding-top: -17px;
+    padding-top: -24px;
+    padding-top: 23px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #BDBDBD;
+}
+
+/* Second column */
+
+.weekly_text {
+left: 287px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+color: #322035;
+padding-top: 5px;
+}
+
+.column {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.divider {
+    border: 1px solid #E0E0E0;
+    margin: 25px 0;
+}
+
+.tbl_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.tbl_left_pane {
+    width: 7%;
+    z-index: 2;
+}
+
+.tbl_right_pane {
+    width: 93%;
+}
+
+.tbl_right_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #322035;
+}
+
+.custom_tbl_body {
+    padding: 8px 0;
+    padding-right: 0;
+}
+
+.pr_10 {
+    padding-right: 6px;
+}
+
+.activity_line {
+    height: 100%; 
+    border-left: 0.7px solid #A28FDE;
+    margin-left: 2.25%;
+    position: absolute;
+    left: 0;
+    max-height: 83px;
+}
+
+@media only screen and (max-width: 768px) {
+    .tbl_right_pane {
+        width: 78%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile_clearfix {
+        margin: 10px;
+    }
+}

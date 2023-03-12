@@ -1,0 +1,27 @@
+.privacy_policy {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 55px;
+line-height: 82px;
+color: #322035;
+}
+
+.privacy_text {  
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #322035;
+}
+
+.privacy_policy_wrapper {
+    padding: 50px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .privacy_policy_wrapper {
+        padding: 50px 10px;
+    }
+}

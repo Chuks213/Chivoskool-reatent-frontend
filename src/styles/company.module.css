@@ -1,0 +1,144 @@
+.company_box {
+    /* width: 1440px; */
+    width: 100vw;
+    height: 493px;
+    left: 0px;
+    top: 114px;
+}
+
+.pixel {
+    padding-left: 0 !important;
+}
+
+.about_us {
+/* width: 251px;
+height: 83px;
+left: 122px;
+top: 797px; */
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 55px;
+line-height: 82px;
+color: #322035;
+}
+
+.unique_text {
+    /* width: 646px;
+    height: 83px;
+    left: 122px;
+    top: 1338px; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #322035;
+}
+
+.our_platform {
+    /* width: 956px;
+    height: 83px;
+    left: 122px;
+    top: 1970px; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #322035;
+}
+
+.Careers {
+    /* width: 222px;
+    height: 83px;
+    left: 122px;
+    top: 2254px; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #322035;
+}
+
+.our_team {
+/* width: 276px;
+height: 100px;
+left: 122px;
+top: 2583px; */
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 55px;
+line-height: 82px;
+color: #322035;
+}
+
+/* .team1 {
+    /* height: 392px; */
+
+
+/* .team2 {
+    height: 470px;
+}  */
+
+.avatar {
+    background: #322035;
+    width: 312px;
+    height: 312px;
+    padding: 39px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .other_device {
+        position: relative;
+        right: unset;
+    }
+
+    .company_box {
+        max-height: 400px;
+    }
+}
+
+.company_wrapper {
+    padding: 50px 18px;
+    /* overflow: hidden; */
+}
+
+.company_avatar {
+    padding: 24px 0;
+}
+/* .col_avatar {
+    padding: 0;
+} */
+
+@media only screen and (max-width: 768px) {
+    .company_avatar {
+        padding-top: 0;
+        padding-bottom: 3px;
+    }
+
+    .smaller_text_mobile {
+        font-size: 45px;
+        line-height: 72px;
+    }
+
+    .lh_65_mobile {
+        line-height: 65px;
+    }
+}
+
+.image1 {
+    padding: 3px 0;
+}
+
+.bottom_page_design_2 {
+    position: absolute;
+    left: -53%;
+    bottom: 0;
+    top: -3%;
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }

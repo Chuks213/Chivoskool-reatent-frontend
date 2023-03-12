@@ -1,0 +1,163 @@
+.image_upload_box {
+    width: 346px;
+    height: 348px;
+    background: #E8E4F6;
+    border: 1px dashed #000000;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30%;
+}
+
+.image_upload_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #322035;
+    z-index: 1;
+}
+
+.image_upload_text a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #EB5757;
+}
+
+.upload_btn {
+    /* font-size: 18px;
+    display: block;
+    width: 100%;
+    border: none;
+    text-transform: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0; */
+    display: none;
+}
+
+.upload_btn:focus {
+    outline: none;
+}
+
+.file_preview_container {
+    margin-bottom: 35px;
+}
+
+.file_preview_container span {
+    font-size: 14px;
+}
+
+.preview_list {
+    display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+    .preview_list {
+        flex-direction: column;
+    }
+}
+
+.preview_container {
+    padding: 0.25rem;
+    width: 20%;
+    height: 120px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.preview_container:hover {
+    opacity: 0.55;
+}
+
+.preview_container:hover .file_meta_data {
+    display: flex;
+}
+
+.preview_container >div:first-of-type {
+    height: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width: 750px) {
+    .preview_container {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .preview_container {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .preview_container {
+        width: 100%;
+        padding: 0 0 0.4em;
+    }
+}
+
+.image_preview {
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+
+.file_meta_data {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(5, 5, 5, 0.55);
+}
+
+.file_meta_data aside {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.remove_file_icon {
+    /* position: absolute;
+    top: 0; */
+    cursor: pointer;
+}
+
+.remove_file_icon:hover {
+    transform: scale(1.3);
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .image_upload_box {
+        width: auto;
+    }
+}

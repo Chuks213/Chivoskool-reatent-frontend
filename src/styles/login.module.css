@@ -1,0 +1,144 @@
+.login_row {
+    padding: 54px 74px;
+}
+
+.big_header {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #322035;
+}
+
+.text_under {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #322035;
+    padding-top: 25px;
+    max-width: 400px;
+}
+
+.login_image {
+    width: 483px;
+    height: 363px;
+}
+
+.login_image_pane {
+    padding-top: 47px;
+}
+
+.light_background {
+    background-color: #E5E5E5;
+}
+
+.center_box {
+    padding-top: 92px;
+}
+
+.logo_bg {
+    width: 270px;
+    height: 74px;
+    padding-left: 130px;
+    margin-bottom: 14px;
+}
+
+.login_form {
+    padding: 30px 35px;
+    background-color: #ffffff;
+    height: 320px;
+    width: 460px;
+    margin: 0 auto;
+}
+
+.login_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #322035;
+}
+
+.forgot_password {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #322035;
+    align-self: center;
+}
+
+.forgot_password:hover {
+    text-decoration: none;
+    color: #C4C4C4;
+}
+
+.forgot_password:focus {
+    text-decoration: none;
+    color: #C4C4C4;
+}
+
+.login_extras {
+    display: flex;
+    justify-content: space-between;
+}
+
+.control_input {
+    padding: 25px;
+}
+
+.main_row {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .login_image {
+        max-width: 385px;
+    }
+
+    .login_row {
+        padding: 54px 34px;
+    }
+
+    .logo_bg {
+        float: left;
+        padding-left: 24px;
+    }
+
+    .light_background {
+        background-color: inherit;
+    }
+
+    .login_row {
+        display: none;
+    }
+
+    .center_box {
+        padding-top: 32px;
+    }
+
+    .logo_bg {
+        float: none;
+    }
+
+    .login_form {
+        width: 360px;
+        padding: 30px 25px;
+    }
+}
+
+/* IPAD ONLY */
+@media only screen and (min-width: 700px) and (max-width: 768px) {
+    .login_row {
+        display: block;
+    }
+
+    .light_background {
+        background-color: #E5E5E5;
+    }
+}

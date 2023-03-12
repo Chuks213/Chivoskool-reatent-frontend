@@ -1,0 +1,42 @@
+.terms_and_condition {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 55px;
+line-height: 82px;
+color: #322035;
+}
+
+.terms_text {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #322035;
+}
+
+.other_device {
+    position: absolute;
+    right: 0;
+}
+
+.terms_wrapper {
+    padding: 50px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .other_device {
+        position: relative;
+        right: unset;
+    }
+}
+
+.bottom_page_design_2 {
+    position: absolute;
+    left: -53%;
+    bottom: 0;
+    top: -3%;
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }

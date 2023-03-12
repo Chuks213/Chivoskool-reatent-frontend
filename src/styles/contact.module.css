@@ -1,0 +1,64 @@
+.big_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #322035;
+}
+
+.get_in_touch_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #322035;
+}
+
+.bold_description {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #322035;  
+}
+
+.description_content {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #322035;
+}
+
+.contact_image {
+    width: 675px;
+    height: 416px;
+}
+
+.items_right {
+    position: absolute;
+    right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .items_right {
+        position: relative;
+        right: unset;
+    }
+
+    .contact_image {
+        width: 339px;
+        height: 212px;
+    }
+
+    .big_text {
+        font-size: 45px;
+        line-height: 72px;
+    }
+}

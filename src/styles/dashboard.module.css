@@ -1,0 +1,153 @@
+.welcome_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #322035;
+    text-transform: capitalize;
+}
+
+.dashboard_image {
+    float: right;
+    padding-right: 3px;
+}
+
+.custom_tbl_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 20px;
+    color: #322035;
+}
+
+.clearfix {
+    margin: 33px;
+}
+
+.custom_tbl {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    /* padding: 19px; */
+}
+
+.tbl_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px 0;
+}
+
+.tbl_left_pane {
+    width: 12%;
+}
+
+.tbl_right_pane {
+    width: 88%;
+}
+
+.bullet {
+    margin: 0 3px;
+}
+
+.light_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #828282;
+}
+
+.tbl_right_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #322035;
+}
+
+.view_all_btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FF725E;
+}
+
+.custom_tbl_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px;
+}
+
+.custom_tbl_header_border {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.custom_tbl_body {
+    padding: 19px;
+    padding-right: 0;
+}
+
+.custom_tbl_body_border {
+    border-bottom: 1px solid #E0E0E0;
+    padding-top: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.todo_list_bullet {
+    color: #FF725E;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.todo_list_text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #000000;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.todo_list_group {
+    display: flex;
+    flex-direction: row;
+    padding: 3px 0;
+    align-items: center;
+    position: relative;
+}
+
+.todo_list_group a {
+    position: absolute;
+    right: 5%;
+}
+
+.color_completed {
+    color: yellowgreen;
+}
+
+@media only screen and (max-width: 768px) {
+    .tbl_right_pane {
+        width: 78%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile_clearfix {
+        margin: 10px;
+    }
+}
